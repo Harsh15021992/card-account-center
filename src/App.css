@@ -1,0 +1,26 @@
+a {
+  font-size: 0.75em;
+  font-weight: bold;
+  color: #000;
+}
+a:hover,
+a:focus,
+a:active {
+  color: #7c7c7b;
+}
+input,
+select {
+  padding: 5px 10px;
+  font-size: 0.9375em;
+  width: 150px;
+  margin: 5px 0;
+}
+input[type="button"] {
+  color: white;
+  background: #000;
+  border: none;
+}
+input[type="button"]:hover,
+input[type="button"]:focus {
+  background: #7c7c7b;
+}

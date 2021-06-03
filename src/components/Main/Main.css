@@ -1,0 +1,41 @@
+.main-wrapper {
+  width: 90%;
+  margin: 0 auto;
+}
+.error-text {
+  color: red;
+}
+.successful-transaction {
+  color: green;
+}
+
+.info-container {
+  margin-top: 20px;
+}
+.card-image {
+  display: inline-block;
+  width: 100px;
+  height: 90px;
+}
+.user-detail-container {
+  padding: 40px 0 0;
+}
+.links-container {
+  margin-top: 20px;
+}
+@media only screen and (min-width: 600px) {
+  .main-wrapper {
+    width: 60%;
+  }
+  .card-container {
+    display: inline-block;
+    width: 100px;
+    height: 90px;
+    vertical-align: top;
+  }
+  .user-detail-container {
+    display: inline-block;
+    width: 200px;
+    padding: 0 20px 0;
+  }
+}
